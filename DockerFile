@@ -1,0 +1,13 @@
+FROM cypress/base:10
+RUN node --version
+RUN npm --version
+WORKDIR /home/node/app
+
+COPY package.json package-lock.json cypress.json ./
+COPY cypress ./cypress
+
+ENV CI=1
+
+RUN npm install
+
+CMD npm run test || npm run copyScreenshots && npm run merge-report && npm run generate-report
