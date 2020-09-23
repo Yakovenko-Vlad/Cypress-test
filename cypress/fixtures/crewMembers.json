@@ -1,0 +1,37 @@
+{
+  "julia_cunningham":
+  {
+    "firstName": "julia",
+    "lastName": "cunningham",
+    "fullName": "julia cunningham",
+    "city": "sheffield"
+  },
+  "lloyd_gonzalez":
+  {
+    "firstName": "lloyd",
+    "lastName": "gonzalez",
+    "fullName": "lloyd gonzalez",
+    "city": "hereford"
+  },
+  "emma_stewart":
+  {
+    "firstName": "emma",
+    "lastName": "stewart",
+    "fullName": "emma stewart",
+    "city": "worcester"
+  },
+  "danielle_moore":
+  {
+    "firstName": "danielle",
+    "lastName": "moore",
+    "fullName": "danielle moore",
+    "city": "cardiff"
+  },
+  "linda_ruiz":
+  {
+    "firstName": "linda",
+    "lastName": "ruiz",
+    "fullName": "linda ruiz",
+    "city": "liverpool"
+  }
+}
